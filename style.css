@@ -51,15 +51,19 @@ body {
     padding: 0px;
 }
 
-.todo-item, .todo-title {
+.todo-item, 
+.todo-title {
     list-style: none;
 }
 
-input,button {
+input,
+button {
     outline: none;
 }
 
-.todo-edit, .todo-delete, .new-task-add-btn {
+.todo-edit, 
+.todo-delete, 
+.new-task-add-btn {
     background: none;
     border: 0px;
     color: #888;
@@ -69,12 +73,15 @@ input,button {
     cursor: pointer;
 }
 
-.todo-edit:hover, .todo-delete:hover, .new-task-add-btn:hover {
+.todo-edit:hover, 
+.todo-delete:hover, 
+.new-task-add-btn:hover {
     color: #3a3A3a;
 }
 
 /* Heading */
-.todo-title, .todo-title,
+.todo-title, 
+.todo-title,
 .new-task-text {
     color: #333;
     font-weight: 700;
@@ -85,7 +92,8 @@ input,button {
     text-transform: uppercase;
 }
 
-.todo-task, .new-task-entry {
+.todo-task, 
+.new-task-entry {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -98,7 +106,8 @@ input,button {
     color: #888;
 }
 
-.todo-task:focus, .new-task-entry:focus {
+.todo-task:focus, 
+.new-task-entry:focus {
     color: #333;
 }
 
@@ -123,7 +132,11 @@ input,button {
     align-items: center;
 }
 
-.todo-checkbox, .todo-text, .todo-task, .todo-edit, .todo-delete {
+.todo-checkbox, 
+.todo-text, 
+.todo-task, 
+.todo-edit, 
+.todo-delete {
     vertical-align: middle;
 }
 
