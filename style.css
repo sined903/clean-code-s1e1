@@ -10,7 +10,7 @@ body {
     display: block;
     text-align: right;
 }
-.header-images {
+.header-img {
     width: 100%;
 }
 .header-info {
@@ -121,12 +121,12 @@ input,button {
 .todo-task {
     width: 226px
 }
-.todo-delete-images {
+.todo-delete-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.todo-delete-images:hover {
+.todo-delete-img:hover {
     transform: rotateZ(0);
 }
 
