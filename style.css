@@ -34,7 +34,7 @@ body {
     margin: 0 auto 0;
 }
 
-.new-task-entry,
+.todo-new-entry,
 .todo-task, 
 .todo-text {
     width: 56%;
@@ -42,7 +42,7 @@ body {
     flex-grow: 1;
 }
 
-.new-task-wrapper {
+.todo-new-wrapper {
     display: flex;
 }
 
@@ -63,7 +63,7 @@ button {
 
 .todo-edit, 
 .todo-delete, 
-.new-task-add-btn {
+.todo-add-btn {
     background: none;
     border: 0px;
     color: #888;
@@ -75,14 +75,14 @@ button {
 
 .todo-edit:hover, 
 .todo-delete:hover, 
-.new-task-add-btn:hover {
+.todo-add-btn:hover {
     color: #3a3A3a;
 }
 
 /* Heading */
 .todo-title, 
 .todo-title,
-.new-task-text {
+.todo-new-text {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -93,7 +93,7 @@ button {
 }
 
 .todo-task, 
-.new-task-entry {
+.todo-new-entry {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -107,17 +107,17 @@ button {
 }
 
 .todo-task:focus, 
-.new-task-entry:focus {
+.todo-new-entry:focus {
     color: #333;
 }
 
 /* New Task */
-.new-task-text {
+.todo-new-text {
     display: block;
     margin: 0 0 20px;
 }
 
-.new-task-entry {
+.todo-new-entry {
     width: 318px;
 }
 
